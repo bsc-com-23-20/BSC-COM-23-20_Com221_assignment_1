@@ -1,0 +1,3 @@
+class Faculty extends Employee{
+    
+}
