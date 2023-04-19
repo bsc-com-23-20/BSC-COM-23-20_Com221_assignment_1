@@ -10,5 +10,11 @@ public class Test{
         dateHired.setDate(System.currentTimeMillis());
         Employee employee1 = new Employee("Lupo Peanut", "Senti 18b", 39568989 , "lupoPeanuts@hotmail.com", "B001", 5000000.0, dateHired);
         System.out.println(employee1);
+
+        Faculty faculty1 = new Faculty("Alice Kotamo", "123 Chirunga", 35906932 ,"ak@unima.com", "B006", 750000.0, dateHired, "M-F 7am-4pm", "Senior Lecturer");
+        System.out.println(faculty1);
+   
+   
+   
     }
 }
