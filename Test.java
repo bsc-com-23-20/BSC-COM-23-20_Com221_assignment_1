@@ -13,6 +13,10 @@ public class Test{
 
         Faculty faculty1 = new Faculty("Alice Kotamo", "123 Chirunga", 35906932 ,"ak@unima.com", "B006", 750000.0, dateHired, "M-F 7am-4pm", "Senior Lecturer");
         System.out.println(faculty1);
+
+        Staff staff1 = new Staff("Essyln Huwa", "Naisi street 34", 89038587 , "essHuwa@gmail.com", "B009", 4000000.0, dateHired, "Accounts Assistant");
+
+        System.out.println(staff1);
    
    
    
