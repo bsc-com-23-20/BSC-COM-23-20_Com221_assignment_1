@@ -1,0 +1,112 @@
+
+
+
+UML diagram for the Person class
++---------------------+
+|        Person       |
++----------------------+
+| -personName: String  |
+| -pAddress: String    |
+| -phoneNumber: int    |
+| -emailAddress: String|
++-----------------------------------------------+
+| Person(personName:String,pAddress:String,     |				
+|phoneNumber:int,emailAddress:String)		|		
+|          					|     
+|+getPersonName():String  			|
+|+getPAdress():String     			|
+|+getPhoneNumber():int    			|
+|+getEmailAddress():String			|
+|			  			|
+|+setPersonName(personName:String):void    	|
+|+setPAdress(pAddress:String):void       	|
+|+setPhoneNumber(phoneNumber:int):void   	|
+|+setEmailAddress(emailAddress:String):void  	|
+|			  			|
+|			 			|<---------------
+|+toString(): String      			|<----------	|
++-----------------------------------------------+	   |	|
+							   |	|
+UML diagram for the Student class			   |	|
++---------------------+					   |	|
+|       Student       |					   |	|
++---------------------+					   |	|
+| -status: String     |					   |	|
++-----------------------------------------------------+	   |	|
+| Student(status:String) 			      |	   |	|
+|+getStatus():String  				      |	   |	|
+|+setStatus():void   				      |----|	|
+|		      				      |		|
+|		     				      |		|
+|+toString(): String 				      |		|
++-----------------------------------------------------+		|
+								|
+UML diagram for the Employee class				|
++---------------------+						|
+|       Employee      |						|
++---------------------+						|
+| -office: String     |						|
+| -salary: double     |						|
+| -dateHired: MyDate  |						|
++--------------------------------------------------------+	|
+|Employee(office:String, salary:double, dateHired:MyDate)|	|
+|+getOffice():String					 |	|
+|+getSalary():double					 |	|
+|+getDateHired():MyDate					 |-------
+|							 |
+|+setOffice(office:String):void				 |
+|+setSalary(salary:double):void				 |
+|+setDateHired(dateHired:MyDate):void 			 |
+|							 |
+|+toString(): String 					 |
++--------------------------------------------------------+
+					^	^	^
+UML diagram for the MyDate class	|	|	|
+					|	|	|
++------------------------+		|	|	|
+|        MyDate          |		|	|	|
++------------------------+		|	|	|
+| -year: int             |		|	|	|
+| -month: int            |		|	|	|
+| -day: int              |		|	|	|
++-----------------------------------------+	|	|
+| +MyDate()              		  |	|	|
+| +MyDate(elapsedTime: long)		  |	|	|
+| +MyDate(year: int, month: int, day: int)|	|	|
+| +getYear(): int        		  |	|	|
+| +getMonth(): int       		  |	|	|
+| +getDay(): int         		  |	|	|
+| +setDate(elapsedTime: long): void	  |	|	|
++-----------------------------------------+	|	|
+						|	|
+						|	|
+UML diagram for the Staff class			|	|
++---------------------+				|	|
+|        Staff        |				|	|
++---------------------+				|	|
+| -title: String      |				|	|
++-------------------------------+		|	|
+| Staff(title:String)		|		|	|
+|+getTitle():String		|----------------	|
+|+setTitle(title:String):void   |			|
+|				|			|
+|+toString(): String 		|			|
++-------------------------------+			|
+							|
+UML diagram for the Faculty class			|
++---------------------+					|
+|       Faculty       |					|
++---------------------+					|
+| -officeHours: String|					|
+| -rank: String       |					|
++-----------------------------------------------+	|
+| Faculty(officeHours:String,rank:String)	|-------|
+|+getOfficeHours():String			|
+|+getRank():String				|
+|+setOfficeHours(officeHours:String):void	|
+|+setRank(rank:String):void			|
+|						|
+|+toString(): String 				|
++-----------------------------------------------+
+      ^
+where | means inherited from
