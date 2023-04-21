@@ -11,25 +11,23 @@ class Employee extends Person{
         this.salary = salary;
         this.dateHired = dateHired;
     }
-     // Getters and setters
+     // Getters 
     public String getOffice() {
         return office;
     }
-
+    public double getSalary() {
+        return salary;
+    }
+    public MyDate getDateHired() {
+        return dateHired;
+    }
+    // setters
     public void setOffice(String office) {
         this.office = office;
     }
 
-    public double getSalary() {
-        return salary;
-    }
-
     public void setSalary(double salary) {
         this.salary = salary;
-    }
-
-    public MyDate getDateHired() {
-        return dateHired;
     }
 
     public void setDateHired(MyDate dateHired) {

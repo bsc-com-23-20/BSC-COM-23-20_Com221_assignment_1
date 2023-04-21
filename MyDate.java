@@ -1,21 +1,4 @@
-/*
-+------------------------+
-|        MyDate          |
-+------------------------+
-| -year: int             |
-| -month: int            |
-| -day: int              |
-+------------------------+
-| +MyDate()              |
-| +MyDate(elapsedTime: long)|
-| +MyDate(year: int, month: int, day: int)|
-| +getYear(): int        |
-| +getMonth(): int       |
-| +getDay(): int         |
-| +setDate(elapsedTime: long): void|
-+------------------------+*/
-
- import java.util.Calendar; // importing the built in java calendar class
+import java.util.Calendar; // importing the built in java calendar class
 
 public class MyDate extends Employee{
     private int year ;
@@ -39,8 +22,8 @@ public class MyDate extends Employee{
     public MyDate(String personName, String pAddress, int phoneNumber, String emailAddress, String office, double salary, MyDate dateHired,int year, int month, int day){
         super(personName, pAddress, phoneNumber, emailAddress, office, salary, dateHired);
         this.year = year;
-    this.month = month;
-    this.day = day;
+        this.month = month;
+        this.day = day;
 }
 
 // Getter method for year 
